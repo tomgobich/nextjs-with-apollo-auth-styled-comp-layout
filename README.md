@@ -3,7 +3,7 @@
 
 ## Demo
 
-https://next-with-apollo-auth.now.sh
+https://with-apollo-auth-coplzghrrk.now.sh/
 
 ## How to use
 
