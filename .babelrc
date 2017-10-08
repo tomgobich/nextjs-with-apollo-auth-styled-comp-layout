@@ -1,0 +1,40 @@
+{
+  "env": {
+    "development": {
+      "presets": ["./babel-preset"],
+      "plugins": [
+        [
+          "module-resolver",
+          {
+            "root": ["./"],
+            "alias": {
+              "components": "./components",
+              "lib": "./lib"
+            }
+          }
+        ]
+      ]
+    },
+    "production": {
+      "presets": "next/babel",
+      "plugins": [
+        [
+          "module-resolver",
+          {
+            "root": ["./"],
+            "alias": {
+              "components": "./components",
+              "lib": "./lib"
+            }
+          }
+        ]
+      ]
+    },
+    "test": {
+      "presets": [
+        ["env", { "modules": "commonjs" }],
+        "next/babel"
+      ]
+    }
+  }
+}
