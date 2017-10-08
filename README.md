@@ -35,6 +35,8 @@ Also included in this repository are pages reliant on a layout, found in the com
 
 To run locally go to [graph.cool](https://www.graph.cool), setup a project with Email-Password Auth and paste the 'Simple' API Endpoint in /lib/init-apollo.js as the uri
 
+PostCSS style imports are outlined and used from [nickdandakis](https://github.com/nickdandakis)'s solution [here](https://github.com/zeit/styled-jsx/issues/254)
+
 
 ## Begin NextJS With Apollo Project Explanation
 
