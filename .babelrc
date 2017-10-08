@@ -9,14 +9,15 @@
             "root": ["./"],
             "alias": {
               "components": "./components",
-              "lib": "./lib"
+              "lib": "./lib",
+              "styles": "./styles"
             }
           }
         ]
       ]
     },
     "production": {
-      "presets": "next/babel",
+      "presets": "./babel-preset",
       "plugins": [
         [
           "module-resolver",
@@ -24,7 +25,8 @@
             "root": ["./"],
             "alias": {
               "components": "./components",
-              "lib": "./lib"
+              "lib": "./lib",
+              "styles": "./styles"
             }
           }
         ]

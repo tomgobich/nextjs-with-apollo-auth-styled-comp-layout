@@ -38,8 +38,10 @@ class Index extends React.Component {
         Hello {this.props.loggedInUser.user.name}!<br />
         <button onClick={this.signout}>Sign out</button>
         <style jsx>{`
+          @import '../styles/variables.css';
+
           button {
-            color: red;
+            color: var(--primary);
           }
         `}</style>
       </Layout>
