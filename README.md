@@ -1,5 +1,5 @@
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/tomgobich/nextjs-with-apollo-auth-styled-comp-layout.git)
-# Apollo With Authentication Example
+# NextJS with Apollo Authentication, Styling with Styled-JSX, and Layout based pages
 
 ## Demo
 
